@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+}
+section{
+    margin-bottom: 70px;
+}
+.flexible-container{
+    display: flex;
+}
+.mission{
+    width: 60%;
+    margin: auto;
+    padding: 5%;
+}
+.top-heading{
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 10px;
+    border-left: 6px solid rgb(219, 11, 11);   
+}
+.top-heading h1 span{
+    color: orange;
+}
+.mission p{
+    margin-bottom: 30px;
+}
+.mission h4{
+    margin-top: 40px;
+    font-weight: 400;
+}
+.link-button{
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    background: #FF5959;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.mission img{
+    width: 60%;
+}
+.mission-heading h2{
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.mission-heading h2 span{
+    color: orange;
+}
+.focused-strategy{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100px;
+}
+.bg-mission{
+    background: #EDF5F6;
+}
+.bg-vission{
+    background: #FFEEEE;
+}
+.bg-goal{
+    background: #FFF4D6;
+}
+.mission-part{
+    width: 27%;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.mission-part img{
+    width: 50%;
+}
+.mission-part h3{
+    font-size: 25px;
+}
+.mission-part p{
+    font-size: 17px;
+    color: rgb(68, 59, 59);
+}
+.dream-bg{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.develop-details{
+    display: flex;
+    padding: 20px 100px;
+}
+.develop img{
+    width: 80%;
+}
+.develop{
+    width: 45%;  
+}
+.develop h3{
+    font-size: 45px;
+}
+.develop p{
+    margin-bottom: 30px;
+}
+.community-img img{
+    padding-left: 70px;
+}
+.contact{
+ text-align: center;
+}
+.contact h2{
+    font-size: 45px;
+    font-weight: 800;
+}
+.contact h2 span{
+    color: orange;
+}
+.contact p{
+  margin-bottom: 30px;
+}
+footer{
+    background: #000;
+    text-align: center;
+    padding: 20px;
+}
+footer h3{
+    font-size: 38px;
+    color: white;
+}
+footer h3 span{
+    color: orangered;
+}
+footer p{
+    color: rgb(138, 133, 133);
+}
